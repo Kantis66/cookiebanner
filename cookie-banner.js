@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const cookiesAccepted = document.cookie.includes("cookiesAccepted=true");
 
     if (!cookiesAccepted) {
-        cookieBanner.style.display = "block";
+        cookieBanner.style.display = "block"; // Affiche le bandeau si les cookies ne sont pas encore acceptés
     }
 
     // Accepter les cookies
